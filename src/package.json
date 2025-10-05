@@ -1,0 +1,31 @@
+{
+  "name": "mail-attachment-downloader",
+  "version": "1.0.0",
+  "description": "Project to download attachments from mail",
+  "keywords": [
+    "attachments"
+  ],
+  "homepage": "https://github.com/cmhernandezdel/mail-attachment-downloader#readme",
+  "bugs": {
+    "url": "https://github.com/cmhernandezdel/mail-attachment-downloader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmhernandezdel/mail-attachment-downloader.git"
+  },
+  "license": "MIT",
+  "author": "Carlos M. Hernández",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "googleapis": "^105.0.0",
+    "uuid": "^13.0.0"
+  }
+}
